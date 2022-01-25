@@ -1,0 +1,74 @@
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00100B; 
+    font-family: 'Source Code Pro', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Font Color */
+.font-color-primary {
+    color: #01BAEF;
+}
+
+
+/* Button Color */
+.btn-color-primary {
+    background-color: #01BAEF;
+    box-shadow: inset 0 0 0 0 #00100B;
+    transition: ease-out 0.4s;
+    color: #0B0C10 !important;
+}
+
+.btn-color-primary:hover {
+    box-shadow: inset 15rem 0 0 0 #00100B;
+    color: #eeeeee !important;
+    cursor: pointer;
+}
+
+/* Background Color */
+.bg-color-primary {
+    background-color: #00100B; 
+}
+
+/* Border-color */
+.border-color-primary {
+    border-color: #01BAEF;
+}
+
+/* Card-Size */
+.card-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+/* Projects img */
+.proj-img {
+    width: 40rem;
+    height: 40rem;
+    object-fit: contain;
+}
+
+/* Footer Button */
+#ftr-btn img{
+    width: 2rem;
+    height: 2rem;
+}
+
+/* HR color */
+.hr-color {
+    background-color: #F28F3B !important;
+}
+
+/* Custom margin */
+.m-top-200 {
+    margin-top: 200px
+}
